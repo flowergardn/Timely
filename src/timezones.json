@@ -1,0 +1,1374 @@
+[
+  {
+    "identifier": "America/Adak",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "America/Anchorage",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/Anguilla",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Antigua",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Aruba",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Atikokan",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Atka",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "America/Bahia_Banderas",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Barbados",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Belize",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Blanc-Sablon",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Boise",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Cambridge_Bay",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Cancun",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Cayman",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Chicago",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Chihuahua",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Ciudad_Juarez",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Coral_Harbour",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Costa_Rica",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Creston",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Curacao",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Danmarkshavn",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "America/Dawson",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Dawson_Creek",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Denver",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Detroit",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Dominica",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Edmonton",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/El_Salvador",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Ensenada",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "America/Fort_Nelson",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Fort_Wayne",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Glace_Bay",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Goose_Bay",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Grand_Turk",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Grenada",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Guadeloupe",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Guatemala",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Halifax",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Havana",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Hermosillo",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Indiana/Indianapolis",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indiana/Knox",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Indiana/Marengo",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indiana/Petersburg",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indiana/Tell_City",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Indiana/Vevay",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indiana/Vincennes",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indiana/Winamac",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Indianapolis",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Inuvik",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Iqaluit",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Jamaica",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Juneau",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/Kentucky/Louisville",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Kentucky/Monticello",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Knox_IN",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Kralendijk",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Los_Angeles",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "America/Louisville",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Lower_Princes",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Managua",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Marigot",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Martinique",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Matamoros",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Mazatlan",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Menominee",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Merida",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Metlakatla",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/Mexico_City",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Moncton",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Monterrey",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Montreal",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Montserrat",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Nassau",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/New_York",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Nipigon",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Nome",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/North_Dakota/Beulah",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/North_Dakota/Center",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/North_Dakota/New_Salem",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Ojinaga",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Panama",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Pangnirtung",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Phoenix",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Port-au-Prince",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Port_of_Spain",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Puerto_Rico",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Rainy_River",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Rankin_Inlet",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Regina",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Resolute",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Santa_Isabel",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "America/Santo_Domingo",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Shiprock",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Sitka",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/St_Barthelemy",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/St_Johns",
+    "timezone": "NST"
+  },
+  {
+    "identifier": "America/St_Kitts",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/St_Lucia",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/St_Thomas",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/St_Vincent",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Swift_Current",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Tegucigalpa",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Thule",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Thunder_Bay",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Tijuana",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "America/Toronto",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "America/Tortola",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Vancouver",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "America/Virgin",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "America/Whitehorse",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "America/Winnipeg",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "America/Yakutat",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "America/Yellowknife",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "Africa/Abidjan",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Accra",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Addis_Ababa",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Algiers",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Africa/Asmara",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Asmera",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Bamako",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Bangui",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Banjul",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Bissau",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Blantyre",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Brazzaville",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Bujumbura",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Cairo",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Africa/Ceuta",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Africa/Conakry",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Dakar",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Dar_es_Salaam",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Djibouti",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Douala",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Freetown",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Gaborone",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Harare",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Johannesburg",
+    "timezone": "SAST"
+  },
+  {
+    "identifier": "Africa/Juba",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Kampala",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Khartoum",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Kigali",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Kinshasa",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Lagos",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Libreville",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Lome",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Luanda",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Lubumbashi",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Lusaka",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Malabo",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Maputo",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Africa/Maseru",
+    "timezone": "SAST"
+  },
+  {
+    "identifier": "Africa/Mbabane",
+    "timezone": "SAST"
+  },
+  {
+    "identifier": "Africa/Mogadishu",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Monrovia",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Nairobi",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Africa/Ndjamena",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Niamey",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Nouakchott",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Ouagadougou",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Porto-Novo",
+    "timezone": "WAT"
+  },
+  {
+    "identifier": "Africa/Sao_Tome",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Timbuktu",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Africa/Tripoli",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Africa/Tunis",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Africa/Windhoek",
+    "timezone": "CAT"
+  },
+  {
+    "identifier": "Antarctica/Macquarie",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Antarctica/McMurdo",
+    "timezone": "NZST"
+  },
+  {
+    "identifier": "Antarctica/South_Pole",
+    "timezone": "NZST"
+  },
+  {
+    "identifier": "Arctic/Longyearbyen",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Asia/Beirut",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Asia/Calcutta",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Asia/Chongqing",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Chungking",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Famagusta",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Asia/Gaza",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Asia/Harbin",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Hebron",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Asia/Hong_Kong",
+    "timezone": "HKT"
+  },
+  {
+    "identifier": "Asia/Jakarta",
+    "timezone": "WIB"
+  },
+  {
+    "identifier": "Asia/Jayapura",
+    "timezone": "WIT"
+  },
+  {
+    "identifier": "Asia/Jerusalem",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Asia/Karachi",
+    "timezone": "PKT"
+  },
+  {
+    "identifier": "Asia/Kolkata",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Asia/Macao",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Macau",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Makassar",
+    "timezone": "WITA"
+  },
+  {
+    "identifier": "Asia/Manila",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "Asia/Nicosia",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Asia/Pontianak",
+    "timezone": "WIB"
+  },
+  {
+    "identifier": "Asia/Pyongyang",
+    "timezone": "KST"
+  },
+  {
+    "identifier": "Asia/Seoul",
+    "timezone": "KST"
+  },
+  {
+    "identifier": "Asia/Shanghai",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Taipei",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Asia/Tel_Aviv",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Asia/Tokyo",
+    "timezone": "JST"
+  },
+  {
+    "identifier": "Asia/Ujung_Pandang",
+    "timezone": "WITA"
+  },
+  {
+    "identifier": "Atlantic/Bermuda",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "Atlantic/Canary",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "Atlantic/Faeroe",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "Atlantic/Faroe",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "Atlantic/Jan_Mayen",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Atlantic/Madeira",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "Atlantic/Reykjavik",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Atlantic/St_Helena",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Australia/ACT",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Adelaide",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Australia/Brisbane",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Broken_Hill",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Australia/Canberra",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Currie",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Darwin",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Australia/Hobart",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Lindeman",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Melbourne",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/North",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Australia/NSW",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Perth",
+    "timezone": "AWST"
+  },
+  {
+    "identifier": "Australia/Queensland",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/South",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Australia/Sydney",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Tasmania",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/Victoria",
+    "timezone": "AEST"
+  },
+  {
+    "identifier": "Australia/West",
+    "timezone": "AWST"
+  },
+  {
+    "identifier": "Australia/Yancowinna",
+    "timezone": "ACST"
+  },
+  {
+    "identifier": "Canada/Atlantic",
+    "timezone": "AST"
+  },
+  {
+    "identifier": "Canada/Central",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Canada/Eastern",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "Canada/Mountain",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "Canada/Newfoundland",
+    "timezone": "NST"
+  },
+  {
+    "identifier": "Canada/Pacific",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "Canada/Saskatchewan",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "Canada/Yukon",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "Europe/Amsterdam",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Andorra",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Athens",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Belfast",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Europe/Belgrade",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Berlin",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Bratislava",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Brussels",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Bucharest",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Budapest",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Busingen",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Chisinau",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Copenhagen",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Dublin",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Europe/Gibraltar",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Guernsey",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Europe/Helsinki",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Isle_of_Man",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Europe/Jersey",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Europe/Kaliningrad",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Kiev",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Kirov",
+    "timezone": "MSK"
+  },
+  {
+    "identifier": "Europe/Kyiv",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Lisbon",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "Europe/Ljubljana",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/London",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Europe/Luxembourg",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Madrid",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Malta",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Mariehamn",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Monaco",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Moscow",
+    "timezone": "MSK"
+  },
+  {
+    "identifier": "Europe/Nicosia",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Oslo",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Paris",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Podgorica",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Prague",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Riga",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Rome",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/San_Marino",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Sarajevo",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Simferopol",
+    "timezone": "MSK"
+  },
+  {
+    "identifier": "Europe/Skopje",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Sofia",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Stockholm",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Tallinn",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Tirane",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Tiraspol",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Uzhgorod",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Vaduz",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Vatican",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Vienna",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Vilnius",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Volgograd",
+    "timezone": "MSK"
+  },
+  {
+    "identifier": "Europe/Warsaw",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Zagreb",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Europe/Zaporozhye",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "Europe/Zurich",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "GB",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "GB-Eire",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "GMT",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "GMT+0",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "GMT-0",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "GMT0",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Greenwich",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Hongkong",
+    "timezone": "HKT"
+  },
+  {
+    "identifier": "HST",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "Iceland",
+    "timezone": "GMT"
+  },
+  {
+    "identifier": "Indian/Antananarivo",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Indian/Comoro",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Indian/Mayotte",
+    "timezone": "EAT"
+  },
+  {
+    "identifier": "Israel",
+    "timezone": "IST"
+  },
+  {
+    "identifier": "Jamaica",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "Japan",
+    "timezone": "JST"
+  },
+  {
+    "identifier": "Libya",
+    "timezone": "EET"
+  },
+  {
+    "identifier": "MET",
+    "timezone": "MET"
+  },
+  {
+    "identifier": "Mexico/BajaNorte",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "Mexico/BajaSur",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "Mexico/General",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "MST",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "MST7MDT",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "Navajo",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "NZ",
+    "timezone": "NZST"
+  },
+  {
+    "identifier": "Pacific/Auckland",
+    "timezone": "NZST"
+  },
+  {
+    "identifier": "Pacific/Guam",
+    "timezone": "ChST"
+  },
+  {
+    "identifier": "Pacific/Honolulu",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "Pacific/Johnston",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "Pacific/Midway",
+    "timezone": "SST"
+  },
+  {
+    "identifier": "Pacific/Pago_Pago",
+    "timezone": "SST"
+  },
+  {
+    "identifier": "Pacific/Saipan",
+    "timezone": "ChST"
+  },
+  {
+    "identifier": "Pacific/Samoa",
+    "timezone": "SST"
+  },
+  {
+    "identifier": "Poland",
+    "timezone": "CET"
+  },
+  {
+    "identifier": "Portugal",
+    "timezone": "WET"
+  },
+  {
+    "identifier": "PRC",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "PST8PDT",
+    "timezone": "PST"
+  },
+  {
+    "identifier": "ROC",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "ROK",
+    "timezone": "KST"
+  },
+  {
+    "identifier": "UCT",
+    "timezone": "UTC"
+  },
+  {
+    "identifier": "Universal",
+    "timezone": "UTC"
+  },
+  {
+    "identifier": "US/Alaska",
+    "timezone": "AKST"
+  },
+  {
+    "identifier": "US/Aleutian",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "US/Arizona",
+    "timezone": "MST"
+  },
+  {
+    "identifier": "US/Central",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "US/East-Indiana",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "US/Eastern",
+    "timezone": "EST"
+  },
+  {
+    "identifier": "US/Hawaii",
+    "timezone": "HST"
+  },
+  {
+    "identifier": "US/Indiana-Starke",
+    "timezone": "CST"
+  },
+  {
+    "identifier": "US/Michigan",
+    "timezone": "EST"
+  }
+]
