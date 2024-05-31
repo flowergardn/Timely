@@ -1,11 +1,26 @@
 import { env } from "~/env";
 import { InteractionType } from "discord-api-types/v10";
 import { sign } from "tweetnacl";
-import { UserApplicationInteraction } from "~/interfaces/Interaction";
+import { type UserApplicationInteraction } from "~/interfaces/Interaction";
+
+interface CommandCtx {
+  interaction: UserApplicationInteraction;
+  ctx: {
+    response: Response;
+    request: Request;
+  };
+}
+
+interface Command {
+  execute: (ctx: CommandCtx) => Promise<Response>;
+}
 
 export async function POST(request: Request, response: Response) {
   const PUBLIC_KEY = env.DISCORD_PUBLIC_KEY;
-  const body = await request.json();
+  const body = (await request.json()) as Record<
+    string,
+    string | number | boolean
+  >;
 
   const signature = request.headers.get("x-signature-ed25519");
   const timestamp = request.headers.get("x-signature-timestamp");
@@ -34,14 +49,16 @@ export async function POST(request: Request, response: Response) {
   }
 
   if (body.type == InteractionType.ApplicationCommand) {
-    const interaction = body as UserApplicationInteraction;
+    const interaction = body as unknown as UserApplicationInteraction;
 
     try {
       const commandId = interaction.data.name
         .split(" ")
         .join("_")
         .toLowerCase();
-      const command = await import(`~/app/bot/_commands/${commandId}`);
+      const command = (await import(
+        `~/app/bot/_commands/${commandId}`
+      )) as Command;
       const commandResponse = await command.execute({
         interaction,
         ctx: {

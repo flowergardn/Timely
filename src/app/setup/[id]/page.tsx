@@ -29,7 +29,7 @@ export default async function Setup({
           <CardHeader>
             <CardTitle>Setup Timely</CardTitle>
             <CardDescription>
-              This session doesn't exist!
+              This session doesn&apos;t exist!
               <br />
               Please run <code>/set_timezone</code> within Timely.
             </CardDescription>

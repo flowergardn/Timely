@@ -12,7 +12,9 @@ export async function submitTimezone(timezone: string, sessionId: string) {
 
   if (session.length === 0) throw new Error("Session not found");
 
-  const sessionData = session[0]!!;
+  const sessionData = session[0];
+
+  if (!sessionData) return;
 
   await db
     .update(users)

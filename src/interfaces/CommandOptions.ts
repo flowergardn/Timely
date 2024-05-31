@@ -1,4 +1,4 @@
-import { UserApplicationInteraction } from "./Interaction";
+import { type UserApplicationInteraction } from "./Interaction";
 
 export interface CommandOptions {
   ctx: {

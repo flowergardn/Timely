@@ -1,5 +1,5 @@
 import { EmbedBuilder } from "@discordjs/builders";
-import { CommandOptions } from "~/interfaces/CommandOptions";
+import { type CommandOptions } from "~/interfaces/CommandOptions";
 import sendEmbed from "~/lib/sendEmbed";
 import { getUser } from "~/lib/user";
 import { colors } from "~/lib/utils";

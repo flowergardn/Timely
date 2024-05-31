@@ -1,6 +1,5 @@
 import type {
   APIChatInputApplicationCommandInteractionData,
-  APIGuildMember,
   APIUserApplicationCommandInteractionData,
 } from "discord-api-types/v10";
 

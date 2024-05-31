@@ -1,9 +1,9 @@
 import { EmbedBuilder } from "@discordjs/builders";
 import { eq } from "drizzle-orm";
-import { CommandOptions } from "~/interfaces/CommandOptions";
-import { CommandApplicationInteraction } from "~/interfaces/Interaction";
+import { type CommandOptions } from "~/interfaces/CommandOptions";
+import { type CommandApplicationInteraction } from "~/interfaces/Interaction";
 import { db } from "~/server/db";
-import { Session, sessions } from "~/server/db/schema";
+import { type Session, sessions } from "~/server/db/schema";
 import { getBaseUrl } from "~/lib/api";
 import sendEmbed from "~/lib/sendEmbed";
 import sendMessage from "~/lib/sendMessage";
@@ -22,7 +22,8 @@ const getSession = (setup: Session[]) => {
 type DBSession = Session | null;
 
 export const execute = async (opt: CommandOptions) => {
-  const interaction = opt.interaction as CommandApplicationInteraction;
+  const interaction =
+    opt.interaction as unknown as CommandApplicationInteraction;
 
   const existingSession: DBSession = getSession(
     await db

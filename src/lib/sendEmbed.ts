@@ -1,5 +1,5 @@
 import { InteractionResponseType, MessageFlags } from "discord-api-types/v10";
-import { EmbedBuilder } from "@discordjs/builders";
+import { type EmbedBuilder } from "@discordjs/builders";
 
 const sendEmbed = (embed: EmbedBuilder) => {
   return Response.json({
