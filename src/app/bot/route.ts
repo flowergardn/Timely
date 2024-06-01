@@ -1,6 +1,6 @@
 import { env } from "~/env";
 import {
-  APIMessageComponentButtonInteraction,
+  type APIMessageComponentButtonInteraction,
   InteractionType,
 } from "discord-api-types/v10";
 import { sign } from "tweetnacl";
@@ -67,22 +67,12 @@ export async function POST(request: Request, response: Response) {
   try {
     const path =
       body.type == InteractionType.MessageComponent ? "events" : "commands";
-    let commandFile;
 
-    try {
-      commandFile = await import(`~/app/bot/_${path}/${commandId}`);
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        return Response.json(
-          {
-            message: `Unknown command. ${err.message}`,
-          },
-          { status: 400 },
-        );
-      }
-    }
+    const commandFile = (await import(
+      `~/app/bot/_${path}/${commandId}`
+    )) as Command;
 
-    const commandResponse = await (commandFile as Command).execute({
+    const commandResponse = await commandFile.execute({
       interaction,
       ctx: {
         response,
@@ -90,7 +80,9 @@ export async function POST(request: Request, response: Response) {
       },
     });
     return commandResponse;
-  } catch (err: any) {
-    console.log(err.message);
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      console.log(err.message);
+    }
   }
 }

@@ -1,10 +1,10 @@
-import { ActionRowBuilder, ButtonBuilder } from "@discordjs/builders";
+import type { ActionRowBuilder, ButtonBuilder } from "@discordjs/builders";
 import { InteractionResponseType, MessageFlags } from "discord-api-types/v10";
 
 interface MessageData {
   content: string;
   flags: MessageFlags;
-  components?: any;
+  components?: ActionRowBuilder<ButtonBuilder>[];
 }
 
 const sendMessage = (

@@ -1,12 +1,12 @@
 import {
-  APIEmbed,
+  type APIEmbed,
   InteractionResponseType,
   MessageFlags,
 } from "discord-api-types/v10";
-import {
+import type {
   ActionRowBuilder,
   ButtonBuilder,
-  type EmbedBuilder,
+  EmbedBuilder,
 } from "@discordjs/builders";
 
 interface MessageData {
@@ -15,7 +15,10 @@ interface MessageData {
   components?: ActionRowBuilder<ButtonBuilder>[];
 }
 
-const sendEmbed = (embed: EmbedBuilder, components?: any) => {
+const sendEmbed = (
+  embed: EmbedBuilder,
+  components?: ActionRowBuilder<ButtonBuilder>[],
+) => {
   const data: MessageData = {
     embeds: [embed.toJSON()],
     flags: MessageFlags.Ephemeral,
