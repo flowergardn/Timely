@@ -7,6 +7,25 @@ export const metadata = {
   title: "Timely",
   description: "View your friends timezones anywhere on Discord 🌎",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  openGraph: {
+    title: "Timely",
+    description: "View your friends timezones anywhere on Discord 🌎",
+    url: "https://timely.astrid.sh",
+    siteName: "Timely",
+    images: [
+      {
+        url: "https://timely.astrid.sh/Logo.png",
+        width: 128,
+        height: 128,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    site: "@astridlol",
+  },
 };
 
 export default function RootLayout({
