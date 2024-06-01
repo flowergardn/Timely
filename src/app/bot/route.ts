@@ -1,10 +1,15 @@
 import { env } from "~/env";
-import { InteractionType } from "discord-api-types/v10";
+import {
+  APIMessageComponentButtonInteraction,
+  InteractionType,
+} from "discord-api-types/v10";
 import { sign } from "tweetnacl";
 import { type UserApplicationInteraction } from "~/interfaces/Interaction";
 
 interface CommandCtx {
-  interaction: UserApplicationInteraction;
+  interaction:
+    | UserApplicationInteraction
+    | APIMessageComponentButtonInteraction;
   ctx: {
     response: Response;
     request: Request;
@@ -48,32 +53,44 @@ export async function POST(request: Request, response: Response) {
     return Response.json({ type: 1 });
   }
 
+  let interaction;
+  let commandId = "";
+
   if (body.type == InteractionType.ApplicationCommand) {
-    const interaction = body as unknown as UserApplicationInteraction;
+    interaction = body as unknown as UserApplicationInteraction;
+    commandId = interaction.data.name.split(" ").join("_").toLowerCase();
+  } else if (body.type == InteractionType.MessageComponent) {
+    interaction = body as unknown as APIMessageComponentButtonInteraction;
+    commandId = interaction.data.custom_id;
+  } else return Response.json({ message: "Unknown interaction type" });
+
+  try {
+    const path =
+      body.type == InteractionType.MessageComponent ? "events" : "commands";
+    let commandFile;
 
     try {
-      const commandId = interaction.data.name
-        .split(" ")
-        .join("_")
-        .toLowerCase();
-      const command = (await import(
-        `~/app/bot/_commands/${commandId}`
-      )) as Command;
-      const commandResponse = await command.execute({
-        interaction,
-        ctx: {
-          response,
-          request,
-        },
-      });
-      // actually returns the response in the req body
-      return commandResponse;
-    } catch (err: any) {
-      console.log(err.message);
+      commandFile = await import(`~/app/bot/_${path}/${commandId}`);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        return Response.json(
+          {
+            message: `Unknown command. ${err.message}`,
+          },
+          { status: 400 },
+        );
+      }
     }
 
-    return;
+    const commandResponse = await (commandFile as Command).execute({
+      interaction,
+      ctx: {
+        response,
+        request,
+      },
+    });
+    return commandResponse;
+  } catch (err: any) {
+    console.log(err.message);
   }
-
-  console.log("Unknown interaction type " + body.type);
 }
